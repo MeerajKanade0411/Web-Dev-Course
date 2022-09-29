@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <marquee><strong><em>Welcome to AlphaTech.com</em></strong></marquee>
+    <form action="mailto:meeraj.kanade0411@gmail.com" method="post" enctype="text/plain"> <!--All the data of this form will be submitted to the backend -->
+    <label for="name">Name</label>
+    <div>
+    <input type="text" name="myName">
+    </div>
+    <br> <!--For better space; Achieve beauty through CSS-->
+    <label for="Role">Role</label>
+    <div>
+    <input type="text" name="myRole">
+    </div>
+    <br>
+    <div>
+        E-mail: <input type="email" name="myEmail">
+    </div>
+    <br>
+    <div>
+        Date: <input type="date" name="id">
+    </div>
+    <br>
+    <div>
+        Bonus: <input type="number" name="myBonus">
+    </div>
+    <br>
+    <div>
+        Are  you eligible: <input type="checkbox" name="myEligibility">
+    </div>
+    <br>
+    <div>
+        Pre-Checked : <input type="checkbox" name="myChecked" checked>
+    </div>
+    <br>
+    <div>
+        Gender: Male<input type="radio" name="myGender">Female<input type="radio" name="myGender">Other<input type="radio" name="myGender">
+        <!--Both genders have the same name i.e my name so only one of them will get selected-->
+    </div>
+    <br>
+    <div>
+        Write about yourself: <br> <textarea name="myText" cols="30" rows="10"></textarea>  
+    </div>
+    <br>
+    <div>
+    <br>    
+    <label for="car">Car</label>
+    <select name="myCar" id="car">
+        <option value="ind">Indica</option>
+        <option value="eco">EcoSport</option>
+        <option value="swf">Swift</option>
+        <option value="def" selected>Default Nano</option>
+    </select>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit Now">
+        <br>
+        <br>
+        <input type="color" value="">
+        <br>
+        <br>
+        <input type="reset" value="Reset Now">
+        <br>
+        <br>
+        Password:
+        <input type="password" name="Password" value="">
+        <br>
+        <br>
+        <input type="date" value="">
+    </div>
+    <br>
+    </form>
+</body>
+</html>
